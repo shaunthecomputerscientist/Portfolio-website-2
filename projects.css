@@ -1,0 +1,105 @@
+.box0{
+    margin-left: 7rem;
+    
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 2px;
+    margin:56px 0;
+    gap: 5rem;
+    
+    
+}
+
+.projectsection{
+    text-align: center;
+    margin-top: 10rem;
+    color: rgb(91, 225, 201);
+}
+
+.box2 .vertical{
+    background: white;
+    height:93px;
+    width: 0.1rem;
+    margin: 0 85px;
+    
+    
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.examples-area{
+    width: 12%;
+    border: 2px solid black;
+    border-radius: 2rem;
+    position: relative;
+    min-height: 250px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    
+}
+.p1text{
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 50px;
+}
+.p2text{
+    position: absolute;
+    font-size: 0.9rem;
+    color: white;
+    bottom: 30px;
+    left: 20px;
+}
+.p3text{
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    bottom: 30px;
+    left: 11px;
+}
+.area1{
+    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url(/neuralnetwork.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.area2{
+    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url(/webops.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.area3{
+    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url(/dsproj.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+.area4{
+    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url(/aiassistant.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+.area5{
+    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url(/nlp.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+.examples-area:hover{
+    background-color: aliceblue;
+    transition: 1s;
+}
+.overlay{
+    display: none;
+}

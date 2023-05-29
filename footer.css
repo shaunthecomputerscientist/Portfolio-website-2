@@ -1,0 +1,26 @@
+footer{
+    background-color: rgba(59, 71, 67, 0.208);
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 20vh;
+    gap: 10rem;
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.1rem;
+    
+}
+.footer-links li a{
+    color: aliceblue;
+
+}

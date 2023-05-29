@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(26, 36, 39);
+    color: aliceblue;
+    position: relative;
+    
+    
+}
+.secimg2{
+    background-image: url(trialimg7.jpg);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.17;
+    filter:blur(0.2rem);
+    background-size: contain;
+    
+    background-repeat:round;
+    
+    
+    
+}
+
+
+
+
+
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    background-color: rgba(33, 109, 109, 0.355);
+    overflow: hidden;
+}
+.ppf-align{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+}
+.ppf img{
+    border: 2px solid cyan;
+    border-radius: 2rem;
+    
+    height: 3rem;
+}
+
+.ppf img:hover{
+    border:2px solid rgb(28, 205, 143);
+    transition: 2s;
+}
+.left{
+    font-size: x-large;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: dashed;
+    color: rgb(115, 239, 229);
+}
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .nav-toggle {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .navtoggle {
+    display: inline-block;
+    position: relative;
+  }
+  .navbar-toggle{
+    display: none;
+  }
+  .navtoggle i {
+    font-size: 20px;
+  }
+  
+  .navtoggle i.fa-times {
+    display: none;
+  }
+  
+  .navbar-menu {
+    display: none;
+  }
+.nav-toggle {
+  display: none;
+}
+.navbar-menu{
+    display: none;
+}
+.navtoggle i.fa-times {
+    display: none;
+  }
+  .navtoggle input[type="checkbox"]:checked ~ .navtoggle i.fa-bars {
+    display: none;
+  }
+  
+  .navtoggle input[type="checkbox"]:checked ~ .navtoggle i.fa-times {
+    display: inline-block;
+  }
+  .navtoggle input[type="checkbox"]:checked ~ .navbar-menu {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 10px;
+}
+.firstSection > div{
+    width: 30%;
+    
+}
+.tl{
+    opacity: 0.7;
+}
+.leftSection{
+    overflow: hidden;
+    font-size: 3.2rem;
+}
+.leftSection .buttons{
+    
+    font-size: 3.2rem;
+}
+.leftSection .btn {
+    text-decoration: none;
+    
+    background-color: transparent;
+    padding:10px 11px;
+    border: 3px solid rgba(31, 170, 170, 0.581);
+    border-radius: 1rem;
+    cursor: pointer;
+    
+}
+.leftSection .btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn:hover{
+    color: rgb(50, 205, 184);
+    text-decoration: underline;
+    
+    transition: 1s;
+}
+.btn a:hover{
+    color: rgb(50, 205, 179);
+    
+    text-decoration: dashed;
+    transition: 1s;
+}
+.btn a:active{
+    color: rgb(50, 205, 184);
+    font-size: 0.8rem;
+    text-decoration: underline;
+    background-color: transparent;
+    text-decoration: solid;
+    transition: 0.1s;
+}
+
+.fa-github{
+    font-size: 2rem;
+    color: #4eefe4;
+    
+}
+
+.rightSection img{
+    width: 90%;
+    
+}
+.cyan{
+    color: rgb(107, 225, 214);
+}
+#element{
+    color: rgb(36, 221, 193);
+}
+.secondSection{
+    
+    max-width: 80vw;
+    margin: auto;
+}
+.secondSection .aboutme{
+    margin-bottom: 100px;
+}
+.secondSection h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+.aboutme h1{
+    color: rgb(103, 237, 210);
+
+}
+.aboutmepara{
+    font-size: 1.7rem;
+    margin: 50px 0px;
+}
+#ai{
+    color: aquamarine;
+}
+#qc{
+    color: rgb(60, 205, 183);
+}
