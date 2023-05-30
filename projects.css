@@ -63,34 +63,34 @@
     left: 11px;
 }
 .area1{
-    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url('neuralnetwork.png');
+    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url(neuralnetwork.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
 }
 .area2{
-    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url('webops.png');
+    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url(webops.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: center;
 }
 .area3{
-    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url('dsproj.jpg');
+    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url(dsproj.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
 }
 .area4{
-    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url('aiassistant.jpg');
+    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url(aiassistant.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
 }
 .area5{
-    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url('nlp.jpg');
+    background: linear-gradient(rgb(0,0,0,0.0),rgb(0,0,0,0.7)), url(nlp.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: center;
